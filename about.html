@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정보 – 합정 클럽 비교</title>
+    <meta name="description" content="합정 클럽 정보 총정리 – 입장료, 운영시간, 위치 꿀팁까지. 브로들이 알려주는 쓸모있는 정보, 더 볼 필요 없어. 010-6279-0862">
+    <meta name="keywords" content="합정 클럽, 합정 클럽 정보, 클럽 입장료, 합정 핫플, 클럽 꿀팁, 브로 문화">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://t3b05-hj-club-cmp.vercel.app/info">
+    <!-- OG 메타 -->
+    <meta property="og:title" content="합정 클럽 정보 – 니가 미리 알아야 할 것들">
+    <meta property="og:description" content="합정 클럽 꿀팁 대방출. 입장료, 라인업, 시간표까지 브로가 직접 정리했다. 클릭 한 번으로 끝.">
+    <meta property="og:image" content="https://t3b05-hj-club-cmp.vercel.app/og-info.jpg">
+    <meta property="og:url" content="https://t3b05-hj-club-cmp.vercel.app/info">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="합정 클럽 정보 – 니가 미리 알아야 할 것들">
+    <meta name="twitter:description" content="합정 클럽 꿀팁 대방출. 입장료, 라인업, 시간표까지 브로가 직접 정리했다. 클릭 한 번으로 끝.">
+    <style>
+        /* RESET & BASE */
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { font-size:16px; scroll-behavior:smooth; }
+        body { background:#0d0d0d; color:#f0f0f0; font-family:'Helvetica Neue',Arial,sans-serif; line-height:1.5; }
+        a { color:#e6ff00; text-decoration:none; }
+        a:hover { color:#fff; }
+        img { max-width:100%; display:block; }
+        ul, ol { list-style:none; }
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 { font-weight:800; text-transform:uppercase; letter-spacing:-0.02em; }
+        h1 { font-size:3rem; line-height:1.1; margin-bottom:0.5rem; }
+        h2 { font-size:2rem; margin-bottom:1rem; }
+        h3 { font-size:1.25rem; margin-bottom:0.5rem; }
+        p { margin-bottom:1rem; }
+        .small-caps { font-variant:small-caps; letter-spacing:0.1em; }
+        /* LAYOUT SYSTEM */
+        .container { max-width:1100px; margin:0 auto; padding:0 20px; }
+        .full-bleed { width:100vw; margin-left:calc(50% - 50vw); }
+        section { padding:3rem 0; }
+        .grid-asym { display:grid; grid-template-columns:1fr 1fr; gap:2rem; }
+        @media(max-width:768px){ .grid-asym { grid-template-columns:1fr; } }
+        /* NAV */
+        .nav { display:flex; justify-content:space-between; align-items:center; padding:1rem 0; border-bottom:1px solid #333; }
+        .nav-links { display:flex; gap:1.5rem; }
+        .nav-links a { font-weight:700; text-transform:uppercase; font-size:0.85rem; letter-spacing:0.05em; }
+        .hamburger { display:none; flex-direction:column; cursor:pointer; }
+        .hamburger span { display:block; width:25px; height:2px; background:#f0f0f0; margin:4px 0; }
+        @media(max-width:768px){
+            .nav-links { display:none; }
+            .hamburger { display:flex; }
+            .nav-links.active { display:flex; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#0d0d0d; padding:1rem; gap:1rem; }
+        }
+        /* TEL LINK */
+        .tel-link { display:inline-block; background:#e6ff00; color:#0d0d0d; font-weight:800; padding:0.5rem 1rem; border-radius:0; font-size:0.9rem; }
+        .tel-link:hover { background:#fff; }
+        /* CARD */
+        .card { background:#1a1a1a; padding:1.5rem; border:1px solid #333; transition:border-color 0.2s; }
+        .card:hover { border-color:#e6ff00; }
+        .card h3 { color:#e6ff00; }
+        /* FAQ */
+        .faq-item { border-bottom:1px solid #333; padding:1rem 0; }
+        .faq-question { font-weight:700; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+        .faq-answer { margin-top:0.5rem; display:none; }
+        .faq-answer.open { display:block; }
+        /* FOOTER */
+        footer { text-align:center; padding:2rem 0; border-top:1px solid #333; font-size:0.8rem; color:#666; }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <nav class="nav">
+            <a href="/" style="font-weight:800;text-transform:uppercase;">합정클럽비교</a>
+            <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="nav-links">
+                <a href="/">홈</a>
+                <a href="/info">정보</a>
+                <a href="/compare">비교</a>
+                <a href="#faq">FAQ</a>
+                <a href="tel:+821062790862" class="tel-link">010-6279-0862</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero / Intro -->
+        <section class="container">
+            <h1>합정 클럽<br>정보 아카이브</h1>
+            <p style="font-size:1.2rem;max-width:700px;">
+                야, 나도 처음엔 뭐가 뭔지 몰랐어. 홍대에서 놀다가 합정 넘어왔는데 분위기가 확 달라.  
+                입장료는 얼마고, 몇 시에 가야 줄 안 서는지, 진짜 핵꿀팁만 모았다.  
+                <strong>이거 하나면 너도 합정 클럽 고인물 가능.</strong>
+            </p>
+            <p class="small-caps" style="margin-top:1rem;">📞 전화 한 통이면 실시간 정보 확인 – <a href="tel:+821062790862" class="tel-link">010-6279-0862</a></p>
+        </section>
+
+        <!-- 상세 정보 카드 -->
+        <section class="container">
+            <h2>⚡ 미리 알면 쩌는 정보</h2>
+            <div class="grid-asym">
+                <div class="card">
+                    <h3>입장료 & 커버</h3>
+                    <p>주말 기준 보통 1~2만 원. 얼리버드나 게스트리스트 있으면 <strong>반값</strong>도 가능해.  
+                    내 전화번호로 미리 연락하면 게스트 등록 도와줄게. (문자/톡도 OK)</p>
+                </div>
+                <div class="card">
+                    <h3>운영 시간</h3>
+                    <p>목~토: 22:00 ~ 05:00. 일~수: 쉬는 곳이 많음.  
+                    <strong>23:30 이후</strong>가 피크라 줄이 길어지니까 일찍 가는 걸 추천.</p>
+                </div>
+                <div class="card">
+                    <h3>드레스 코드</h3>
+                    <p>합정은 홍대보다 살짝 <strong>댄디</strong>한 편. 운동화 OK지만 깔끔한 스니커즈,  
+                    반바지보단 긴바지가 무난. 캡모자도 괜찮음.</p>
+                </div>
+                <div class="card">
+                    <h3>음악 장르</h3>
+                    <p>힙합/알앤비가 주력. 중간중간 하우스/테크노 섞이는 곳도 있어.  
+                    취향에 따라 골라 듣는 재미가 쏠쏠함.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 지역 시그널: 지도 느낌 텍스트 + 꿀팁 -->
+        <section class="container">
+            <h2>📍 합정 클럽 지도 & 꿀팁</h2>
+            <div style="display:flex;flex-wrap:wrap;gap:2rem;">
+                <div style="flex:1;min-width:280px;">
+                    <div class="card">
+                        <h3>클럽 A</h3>
+                        <p>합정역 4번 출구 도보 3분. 언더그라운드 감성, 힙합 위주.  
+                        <strong>입장료 1만 원 (선착순 50명 5천 원)</strong></p>
+                    </div>
+                    <div class="card" style="margin-top:1rem;">
+                        <h3>클럽 B</h3>
+                        <p>메인 스트리트 쪽, 루프탑 있음. 하우스/테크노 믹스.  
+                        <strong>게스트리스트 필수</strong> – 전화 주세요.</p>
+                    </div>
+                    <div class="card" style="margin-top:1rem;">
+                        <h3>클럽 C</h3>
+                        <p>숨은 맛집 같은 곳. 조용한 입구지만 안은 핫함.  
+                        <strong>얼리버드 (22시 전) 무료 입장</strong></p>
+                    </div>
+                </div>
+                <div style="flex:1;min-width:280px;background:#1a1a1a;padding:1.5rem;border:1px solid #333;">
+                    <h3>🌆 브로의 원포인트</h3>
+                    <p>“내 첫 합정 클럽 경험은 개망했어. 늦게 가서 1시간 기다리고, 커버 3만 원 내고…  
+                    근데 지금은 꿀팁 다 알지. <strong>무조건 일찍 가고, 전화로 미리 확인해.</strong>  
+                    번호 저장해두면 클럽별 실시간 줄 상황도 알려줌.”</p>
+                    <p style="margin-top:1rem;">👉 <a href="tel:+821062790862" class="tel-link">전화 걸기</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="container">
+            <h2>❓ 자주 묻는 질문 (FAQ)</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.nextElementSibling.classList.toggle('open')">
+                    <span>Q. 게스트리스트는 어떻게 들어가요?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>간단해. 010-6279-0862로 이름이랑 인원 보내주면 끝.  
+                    보통 1~2시간 내로 확인 문자 보내줌. (주말엔 빨리 마감되니까 미리 연락해)</p>
+                </div>
+</body>
+</html>
