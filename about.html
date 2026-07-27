@@ -1,173 +1,81 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="midnight-gold" data-build="a1b2c3d4">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>정보 – 합정 클럽 비교</title>
-    <meta name="description" content="합정 클럽 정보 총정리 – 입장료, 운영시간, 위치 꿀팁까지. 브로들이 알려주는 쓸모있는 정보, 더 볼 필요 없어. 010-6279-0862">
-    <meta name="keywords" content="합정 클럽, 합정 클럽 정보, 클럽 입장료, 합정 핫플, 클럽 꿀팁, 브로 문화">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-acid-yellow">
-    <meta name="robots" content="index, follow">
+    <meta name="generator" content="custom-cms-9f2a">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-midnight-gold">
+    <title>합정 클럽 비교: 나이트라이프를 위한 정보 분석</title>
+    <meta name="description" content="합정 지역 클럽 선택이 막막한 초심자를 위해 인원 구성, 방문 시간대, 목적에 따른 클럽별 성향 차이를 분석합니다. 실패 없는 밤을 위한 기준을 제시합니다.">
+    <meta name="keywords" content="합정 클럽 비교, 합정 나이트라이프, 클럽 선택 기준, 홍대 합정 클럽 차이">
     <link rel="canonical" href="https://hapjeong-club-guide.node-link.shop/about.html">
-    <!-- OG 메타 -->
-    <meta property="og:title" content="합정 클럽 정보 – 니가 미리 알아야 할 것들">
-    <meta property="og:description" content="합정 클럽 꿀팁 대방출. 입장료, 라인업, 시간표까지 브로가 직접 정리했다. 클릭 한 번으로 끝.">
-    <meta property="og:image" content="https://t3b05-hj-club-cmp.vercel.app/og-info.jpg">
-    <meta property="og:url" content="https://hapjeong-club-guide.node-link.shop/about.html">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="ko_KR">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="합정 클럽 정보 – 니가 미리 알아야 할 것들">
-    <meta name="twitter:description" content="합정 클럽 꿀팁 대방출. 입장료, 라인업, 시간표까지 브로가 직접 정리했다. 클릭 한 번으로 끝.">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "합정 클럽 비교: 정보와 기준",
+        "description": "합정 지역 클럽의 성향과 방문 전략을 분석한 정보 페이지입니다."
+    }
+    </script>
     <style>
-        /* RESET & BASE */
-        * { margin:0; padding:0; box-sizing:border-box; }
-        html { font-size:16px; scroll-behavior:smooth; }
-        body { background:#0d0d0d; color:#f0f0f0; font-family:'Helvetica Neue',Arial,sans-serif; line-height:1.5; }
-        a { color:#e6ff00; text-decoration:none; }
-        a:hover { color:#fff; }
-        img { max-width:100%; display:block; }
-        ul, ol { list-style:none; }
-        /* TYPOGRAPHY */
-        h1, h2, h3, h4 { font-weight:800; text-transform:uppercase; letter-spacing:-0.02em; }
-        h1 { font-size:3rem; line-height:1.1; margin-bottom:0.5rem; }
-        h2 { font-size:2rem; margin-bottom:1rem; }
-        h3 { font-size:1.25rem; margin-bottom:0.5rem; }
-        p { margin-bottom:1rem; }
-        .small-caps { font-variant:small-caps; letter-spacing:0.1em; }
-        /* LAYOUT SYSTEM */
-        .container { max-width:1100px; margin:0 auto; padding:0 20px; }
-        .full-bleed { width:100vw; margin-left:calc(50% - 50vw); }
-        section { padding:3rem 0; }
-        .grid-asym { display:grid; grid-template-columns:1fr 1fr; gap:2rem; }
-        @media(max-width:768px){ .grid-asym { grid-template-columns:1fr; } }
-        /* NAV */
-        .nav { display:flex; justify-content:space-between; align-items:center; padding:1rem 0; border-bottom:1px solid #333; }
-        .nav-links { display:flex; gap:1.5rem; }
-        .nav-links a { font-weight:700; text-transform:uppercase; font-size:0.85rem; letter-spacing:0.05em; }
-        .hamburger { display:none; flex-direction:column; cursor:pointer; }
-        .hamburger span { display:block; width:25px; height:2px; background:#f0f0f0; margin:4px 0; }
-        @media(max-width:768px){
-            .nav-links { display:none; }
-            .hamburger { display:flex; }
-            .nav-links.active { display:flex; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#0d0d0d; padding:1rem; gap:1rem; }
-        }
-        /* TEL LINK */
-        .tel-link { display:inline-block; background:#e6ff00; color:#0d0d0d; font-weight:800; padding:0.5rem 1rem; border-radius:0; font-size:0.9rem; }
-        .tel-link:hover { background:#fff; }
-        /* CARD */
-        .card { background:#1a1a1a; padding:1.5rem; border:1px solid #333; transition:border-color 0.2s; }
-        .card:hover { border-color:#e6ff00; }
-        .card h3 { color:#e6ff00; }
-        /* FAQ */
-        .faq-item { border-bottom:1px solid #333; padding:1rem 0; }
-        .faq-question { font-weight:700; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
-        .faq-answer { margin-top:0.5rem; display:none; }
-        .faq-answer.open { display:block; }
-        /* FOOTER */
-        footer { text-align:center; padding:2rem 0; border-top:1px solid #333; font-size:0.8rem; color:#666; }
+        :root { --primary-gold: #c5a059; --bg-midnight: #0a0a0a; --text-light: #f4f4f4; }
+        body { background-color: var(--bg-midnight); color: var(--text-light); font-family: sans-serif; line-height: 1.6; margin: 0; }
+        header { border-bottom: 1px solid var(--primary-gold); padding: 2rem; text-align: center; }
+        .q-top-pslx { font-size: 0.9rem; color: var(--primary-gold); text-transform: uppercase; }
+        h1 { margin: 1rem 0; font-size: 2.5rem; }
+        article { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        .x-list-f1kb { display: grid; gap: 1.5rem; margin: 2rem 0; }
+        .x-hero-0900 { border-left: 3px solid var(--primary-gold); padding-left: 1rem; margin: 2rem 0; }
+        .r-item-xs1c { background: #1a1a1a; padding: 1.5rem; border-radius: 4px; }
+        footer { text-align: center; padding: 2rem; font-size: 0.8rem; color: #666; }
+        @media (max-width: 768px) { h1 { font-size: 1.8rem; } }
     </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:url" content="https://hapjeong-club-guide.node-link.shop/about.html">
 </head>
 <body>
-    <header class="container">
-        <nav class="nav">
-            <a href="/" style="font-weight:800;text-transform:uppercase;">합정클럽비교</a>
-            <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-                <span></span><span></span><span></span>
-            </div>
-            <div class="nav-links">
-                <a href="/">홈</a>
-                <a href="/info">정보</a>
-                <a href="/compare">비교</a>
-                <a href="#faq">FAQ</a>
-                <a href="tel:+821062790862" class="tel-link">010-6279-0862</a>
-            </div>
-        </nav>
-    </header>
 
-    <main>
-        <!-- Hero / Intro -->
-        <section class="container">
-            <h1>합정 클럽<br>정보 아카이브</h1>
-            <p style="font-size:1.2rem;max-width:700px;">
-                야, 나도 처음엔 뭐가 뭔지 몰랐어. 홍대에서 놀다가 합정 넘어왔는데 분위기가 확 달라.  
-                입장료는 얼마고, 몇 시에 가야 줄 안 서는지, 진짜 핵꿀팁만 모았다.  
-                <strong>이거 하나면 너도 합정 클럽 고인물 가능.</strong>
-            </p>
-            <p class="small-caps" style="margin-top:1rem;">📞 전화 한 통이면 실시간 정보 확인 – <a href="tel:+821062790862" class="tel-link">010-6279-0862</a></p>
-        </section>
+<header>
+    <nav class="q-top-pslx">
+        <a href="/">홈</a> | <a href="/guide">가이드</a> | <a href="/info">정보</a>
+    </nav>
+    <h1>합정 클럽 비교: 정보와 선택 기준</h1>
+</header>
 
-        <!-- 상세 정보 카드 -->
-        <section class="container">
-            <h2>⚡ 미리 알면 쩌는 정보</h2>
-            <div class="grid-asym">
-                <div class="card">
-                    <h3>입장료 & 커버</h3>
-                    <p>주말 기준 보통 1~2만 원. 얼리버드나 게스트리스트 있으면 <strong>반값</strong>도 가능해.  
-                    내 전화번호로 미리 연락하면 게스트 등록 도와줄게. (문자/톡도 OK)</p>
-                </div>
-                <div class="card">
-                    <h3>운영 시간</h3>
-                    <p>목~토: 22:00 ~ 05:00. 일~수: 쉬는 곳이 많음.  
-                    <strong>23:30 이후</strong>가 피크라 줄이 길어지니까 일찍 가는 걸 추천.</p>
-                </div>
-                <div class="card">
-                    <h3>드레스 코드</h3>
-                    <p>합정은 홍대보다 살짝 <strong>댄디</strong>한 편. 운동화 OK지만 깔끔한 스니커즈,  
-                    반바지보단 긴바지가 무난. 캡모자도 괜찮음.</p>
-                </div>
-                <div class="card">
-                    <h3>음악 장르</h3>
-                    <p>힙합/알앤비가 주력. 중간중간 하우스/테크노 섞이는 곳도 있어.  
-                    취향에 따라 골라 듣는 재미가 쏠쏠함.</p>
-                </div>
-            </div>
-        </section>
+<article>
+    <section>
+        <h2>합정 나이트라이프의 지형도</h2>
+        <p>홍대 중심부의 번잡함과 달리, 합정 지역의 클럽들은 보다 특화된 장르와 폐쇄적이지만 확실한 커뮤니티를 지향합니다. 대형 클럽이 주는 물리적 화려함보다는 음악의 밀도와 방문객들의 취향 일치도가 합정 클럽의 핵심 경쟁력입니다. 무작정 입장을 시도하기 전에 각 업장이 지향하는 사운드 시스템과 주요 연령층을 파악하는 것이 우선입니다.</p>
+        <p>이곳의 클럽들은 공간의 크기가 제한적인 경우가 많아 수용 인원이 조기 마감되는 상황이 빈번합니다. 따라서 단순한 유흥을 넘어 특정 문화적 코드를 공유하는 공간이라는 인식을 가져야 합니다. 정보가 부족한 초심자일수록 사전에 해당 업체의 공식 소셜 채널을 통해 당일 라인업과 드레스 코드를 확인하는 습관을 들여야 합니다.</p>
+    </section>
 
-        <!-- 지역 시그널: 지도 느낌 텍스트 + 꿀팁 -->
-        <section class="container">
-            <h2>📍 합정 클럽 지도 & 꿀팁</h2>
-            <div style="display:flex;flex-wrap:wrap;gap:2rem;">
-                <div style="flex:1;min-width:280px;">
-                    <div class="card">
-                        <h3>클럽 A</h3>
-                        <p>합정역 4번 출구 도보 3분. 언더그라운드 감성, 힙합 위주.  
-                        <strong>입장료 1만 원 (선착순 50명 5천 원)</strong></p>
-                    </div>
-                    <div class="card" style="margin-top:1rem;">
-                        <h3>클럽 B</h3>
-                        <p>메인 스트리트 쪽, 루프탑 있음. 하우스/테크노 믹스.  
-                        <strong>게스트리스트 필수</strong> – 전화 주세요.</p>
-                    </div>
-                    <div class="card" style="margin-top:1rem;">
-                        <h3>클럽 C</h3>
-                        <p>숨은 맛집 같은 곳. 조용한 입구지만 안은 핫함.  
-                        <strong>얼리버드 (22시 전) 무료 입장</strong></p>
-                    </div>
-                </div>
-                <div style="flex:1;min-width:280px;background:#1a1a1a;padding:1.5rem;border:1px solid #333;">
-                    <h3>🌆 브로의 원포인트</h3>
-                    <p>“내 첫 합정 클럽 경험은 개망했어. 늦게 가서 1시간 기다리고, 커버 3만 원 내고…  
-                    근데 지금은 꿀팁 다 알지. <strong>무조건 일찍 가고, 전화로 미리 확인해.</strong>  
-                    번호 저장해두면 클럽별 실시간 줄 상황도 알려줌.”</p>
-                    <p style="margin-top:1rem;">👉 <a href="tel:+821062790862" class="tel-link">전화 걸기</a></p>
-                </div>
-            </div>
-        </section>
+    <div class="x-hero-0900">
+        <h3>방문 전략: 시간과 목적의 함수</h3>
+        <p>합정 클럽은 시간대별로 변모하는 성향이 뚜렷합니다. 초저녁에는 라운지 바의 성격이 강해 대화와 음악 감상이 중심이 되지만, 자정이 넘어가면 본격적인 댄스 플로어 모드로 전환됩니다. 목적이 무엇인지에 따라 방문 시점을 조정하십시오. 단순히 음악을 즐기러 가는 것인지, 새로운 네트워크를 형성하러 가는 것인지에 따라 최적의 장소는 완전히 달라집니다.</p>
+        <p>인원 구성 또한 중요한 변수입니다. 2인 이하의 방문은 바 테이블을 활용한 유연한 이동이 가능하지만, 4인 이상의 단체 방문은 사전에 예약 시스템을 확인하지 않으면 입장 자체가 거부될 위험이 있습니다. 공간의 밀도와 운영 방침을 무시한 방문은 실패로 이어지는 지름길임을 명심하십시오.</p>
+    </div>
 
-        <!-- FAQ -->
-        <section id="faq" class="container">
-            <h2>❓ 자주 묻는 질문 (FAQ)</h2>
-            <div class="faq-item">
-                <div class="faq-question" onclick="this.nextElementSibling.classList.toggle('open')">
-                    <span>Q. 게스트리스트는 어떻게 들어가요?</span>
-                    <span>+</span>
-                </div>
-                <div class="faq-answer">
-                    <p>간단해. 010-6279-0862로 이름이랑 인원 보내주면 끝.  
-                    보통 1~2시간 내로 확인 문자 보내줌. (주말엔 빨리 마감되니까 미리 연락해)</p>
-                </div>
+    <div class="x-list-f1kb">
+        <div class="r-item-xs1c">
+            <h4>음악적 큐레이션 확인</h4>
+            <p>합정의 클럽들은 특정 장르에 편중된 성향을 보입니다. 테크노, 하우스, 힙합 등 각 클럽이 고수하는 사운드 컬러가 명확하므로, 본인의 취향과 맞지 않는 곳을 선택하면 즐거움은 반감됩니다. 평소 즐겨 듣는 음악 장르와 클럽의 정체성을 매칭하는 데이터 수집이 선행되어야 합니다.</p>
+        </div>
+        <div class="r-item-xs1c">
+            <h4>복장 및 에티켓 기준</h4>
+            <p>이 지역 클럽들은 자율성을 존중하면서도 최소한의 분위기를 해치지 않는 드레스 코드를 요구합니다. 지나치게 격식을 차리거나, 반대로 너무 방만한 복장은 입장 단계에서 제재를 받을 수 있습니다. 해당 업장의 분위기에 자연스럽게 녹아드는 복장을 준비하는 것이야말로 진정한 베테랑의 자세입니다.</p>
+        </div>
+    </div>
+
+    <section>
+        <h2>성공적인 밤을 위한 체크리스트</h2>
+        <p>첫째, 방문 전 공식 플랫폼을 통해 당일 이벤트 내용을 반드시 확인하십시오. 특정 장르의 파티가 열리는 날에는 평소와 전혀 다른 분위기가 연출됩니다. 둘째, 대중교통 마감 시간을 고려한 이동 계획을 세우십시오. 합정은 홍대와 인접해 있으나 새벽 시간대의 택시 수급은 여전히 변수가 많은 곳입니다.</p>
+        <p>마지막으로, 클럽은 타인과 함께 호흡하는 공간이라는 사실을 잊지 마십시오. 개인의 욕구만을 앞세우는 태도는 합정의 커뮤니티적 성향과 충돌하기 쉽습니다. 충분한 정보를 바탕으로 스스로의 기준을 세우고, 적절한 에티켓을 지킬 때 비로소 합정 클럽이 제공하는 진짜 밤의 가치를 경험할 수 있습니다.</p>
+    </section>
+</article>
+
+<footer>
+    <p>&copy; 2024 합정 클럽 가이드 - 에디토리얼 팀. 모든 권리 보유.</p>
+</footer>
+
 </body>
 </html>
